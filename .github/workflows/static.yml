@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>محمد صلاح حجازي — السيرة الذاتية</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- خطوط وأيقونات -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- مكتبة AOS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background: #f6f8fb;
+        color: #233;
+        direction: rtl;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .menu-wrapper {
+        background: #fff;
+        box-shadow: 0 2px 10px rgba(22, 40, 60, 0.05);
+        position: sticky;
+        top: 0;
+        z-index: 99;
+      }
+
+      nav#header-main-menu {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 14px 20px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .main-menu {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-weight: 600;
+      }
+
+      .main-menu a {
+        padding: 8px 10px;
+        color: #2b4050;
+        border-radius: 6px;
+        transition: all 0.15s;
+      }
+
+      .main-menu a:hover {
+        background: #eef7ff;
+        color: #1b6fa8;
+      }
+
+      .intro-page {
+        padding: 80px 0;
+        background: linear-gradient(
+          180deg,
+          #071028 0%,
+          #0f2a46 50%,
+          #2b5778 100%
+        );
+        color: #fff;
+        text-align: center;
+      }
+
+      .big-title {
+        font-size: 44px;
+        margin: 0 0 8px;
+        font-weight: 700;
+      }
+
+      .title-desc {
+        font-size: 18px;
+        margin: 0;
+        opacity: 0.95;
+      }
+
+      .section {
+        padding: 48px 0;
+      }
+
+      .block {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 18px;
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .section-title-holder {
+        flex: 0 0 260px;
+      }
+
+      .entry-title {
+        font-size: 26px;
+        margin: 0;
+        color: #13364c;
+      }
+
+      .section-content-holder {
+        flex: 1 1 600px;
+      }
+
+      .service-holder {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        padding: 14px;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(15, 40, 60, 0.04);
+        margin-bottom: 14px;
+      }
+
+      .service-holder img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 18px;
+      }
+
+      .grid-item {
+        background: #fff;
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 0 8px 20px rgba(15, 40, 60, 0.04);
+      }
+
+      .portfolio-text {
+        font-weight: 700;
+        color: #13364c;
+        margin-bottom: 6px;
+      }
+
+      .portfolio-sec-text {
+        color: #697d89;
+        font-size: 14px;
+      }
+
+      .progress_bar {
+        margin-bottom: 18px;
+      }
+
+      .progress_head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6px;
+      }
+
+      .progress_bar_field_holder {
+        background: #eaf6fb;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .progress_bar_field_percent {
+        height: 14px;
+        width: 0;
+        border-radius: 10px;
+        transition: width 2s ease-in-out;
+      }
+
+      footer {
+        padding: 28px 0;
+        text-align: center;
+        color: #7b8b95;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu-wrapper">
+      <nav id="header-main-menu">
+        <ul class="main-menu">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#contact">التواصل</a></li>
+          <li><a href="#education">التعليم</a></li>
+          <li><a href="#experience">الخبرات</a></li>
+          <li><a href="#courses">الدورات</a></li>
+          <li><a href="#skills">المهارات</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="home" class="section intro-page" data-aos="fade-up">
+      <h1 class="big-title">محمد صلاح حجازي</h1>
+      <p class="title-desc">مصمم جرافيك · مسوق رقمي</p>
+    </div>
+
+    <div id="contact" class="section" data-aos="fade-up">
+      <div class="block">
+        <div class="section-title-holder">
+          <h2 class="entry-title">بيانات التواصل</h2>
+        </div>
+        <div class="section-content-holder">
+          <div class="service-holder">
+            <img src="https://img.icons8.com/color/48/marker.png" />
+            <div>طنطا – الغربية</div>
+          </div>
+          <div class="service-holder">
+            <img src="https://img.icons8.com/color/48/phone.png" />
+            <div>01016438213</div>
+          </div>
+          <div class="service-holder">
+            <img src="https://img.icons8.com/color/48/new-post.png" />
+            <div>mhmdslahhjazi@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="education" class="section" data-aos="fade-up">
+      <div class="block">
+        <div class="section-title-holder">
+          <h2 class="entry-title">التعليم</h2>
+        </div>
+        <div class="section-content-holder">
+          <div class="grid-item">
+            <div class="portfolio-text">بكالوريوس آداب — جغرافيا</div>
+            <div class="portfolio-sec-text">جامعة طنطا (2019 – 2023)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="section" data-aos="fade-up">
+      <div class="block">
+        <div class="section-title-holder">
+          <h2 class="entry-title">الخبرات</h2>
+        </div>
+        <div class="section-content-holder grid">
+          <div class="grid-item">
+            <div class="portfolio-text">مصمم جرافيك — Freelancer</div>
+            <div class="portfolio-sec-text">2019 – الآن</div>
+          </div>
+          <div class="grid-item">
+            <div class="portfolio-text">مندوب مبيعات — Townteam</div>
+            <div class="portfolio-sec-text">2020 – 2022</div>
+          </div>
+          <div class="grid-item">
+            <div class="portfolio-text">مهندس مساحة — Petrojet</div>
+            <div class="portfolio-sec-text">2022</div>
+          </div>
+          <div class="grid-item">
+            <div class="portfolio-text">مسوق — Golden House Company</div>
+            <div class="portfolio-sec-text">2024 – الآن</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="courses" class="section" data-aos="fade-up">
+      <div class="block">
+        <div class="section-title-holder">
+          <h2 class="entry-title">الدورات التدريبية</h2>
+        </div>
+        <div class="section-content-holder grid">
+          <div class="grid-item">ICDL</div>
+          <div class="grid-item">التسويق الرقمي</div>
+          <div class="grid-item">إعلانات ممولة</div>
+          <div class="grid-item">تصميم لوجو</div>
+          <div class="grid-item">أساسيات التسويق</div>
+          <div class="grid-item">إعلانات عقارية</div>
+          <div class="grid-item">دبلومة التسويق الإلكتروني</div>
+          <div class="grid-item">مهارات التعلم الفعّال</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="section" data-aos="fade-up">
+      <div class="block">
+        <div class="section-title-holder">
+          <h2 class="entry-title">المهارات</h2>
+        </div>
+        <div class="section-content-holder">
+          <div class="progress_bar">
+            <div class="progress_head">
+              <span>التصميم وAdobe</span><span>94%</span>
+            </div>
+            <div class="progress_bar_field_holder">
+              <div
+                class="progress_bar_field_percent"
+                data-percent="94"
+                style="background: linear-gradient(90deg, #4c9ee7, #1b6fa8)"
+              ></div>
+            </div>
+          </div>
+          <div class="progress_bar">
+            <div class="progress_head">
+              <span>التسويق الرقمي</span><span>88%</span>
+            </div>
+            <div class="progress_bar_field_holder">
+              <div
+                class="progress_bar_field_percent"
+                data-percent="88"
+                style="background: linear-gradient(90deg, #ffbb42, #e69e00)"
+              ></div>
+            </div>
+          </div>
+          <div class="progress_bar">
+            <div class="progress_head">
+              <span>التواصل والعرض</span><span>82%</span>
+            </div>
+            <div class="progress_bar_field_holder">
+              <div
+                class="progress_bar_field_percent"
+                data-percent="82"
+                style="background: linear-gradient(90deg, #e74c78, #c92450)"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>© 2025 — محمد صلاح حجازي</footer>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+
+      const progressBars = document.querySelectorAll(
+        ".progress_bar_field_percent"
+      );
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const percent = entry.target.getAttribute("data-percent");
+              entry.target.style.width = percent + "%";
+            }
+          });
+        },
+        {
+          threshold: 0.5,
+        }
+      );
+
+      progressBars.forEach((bar) => observer.observe(bar));
+    </script>
+  </body>
+</html>
